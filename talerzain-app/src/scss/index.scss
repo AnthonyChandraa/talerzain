@@ -1,0 +1,22 @@
+$Red : #b31a1a;
+$Blue : #4780da;
+$Yellow : #d7d53b;
+$default-margin : 1rem;
+
+.title {
+    color: $Red;
+}
+
+.button1{
+    color: $Blue;
+}
+
+
+.bg-yellow {
+    background-color: $Yellow;
+    
+}
+
+.m-1 {
+    margin: $default-margin * 0.375;
+}

@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+// import './../../css/index.scss'
 
 function Home() {
   let number = 3;
@@ -16,9 +17,9 @@ function Home() {
 
 
   return (
-    <div>
-      <h1>Homeee {numberState}</h1>
-      <button onClick={handleAddNumber}>Add Number</button>
+    <div className='bg-yellow m-1'>
+      <h1 className="title">Homeee {numberState}</h1>
+      <button onClick={handleAddNumber} className="button1">Add Number</button>
     </div>
 
   )
