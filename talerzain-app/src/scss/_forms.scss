@@ -1,0 +1,46 @@
+@import '_variables.scss';
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-label {
+    color: $light-text-secondary;
+    margin-bottom: 4px;
+}
+
+.form-control {
+    border: $default-border;
+    border-color: $dark-secondary;
+    border-style: solid;
+    height: 34px;
+    border-radius: $default-border-radius * 0.275;
+    padding: 4px;
+    font-size: $default-font-size;
+}
+
+.form-error {
+    color: $dark-red;
+}
+
+.form-textarea{
+    resize: none;
+    font-size: $default-font-size;
+    border-radius: $default-border-radius * 0.275;
+    border-color: $dark-secondary;
+    padding: $default-size;
+}
+
+.form-file {
+    input[type='file']{
+        display: none;
+    }
+
+}
+
+.blur-background {
+    filter: blur(2px);
+}

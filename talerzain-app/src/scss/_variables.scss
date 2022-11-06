@@ -1,0 +1,54 @@
+//BREAKPOINT-MINIMUM    
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+//PADDING-MARGIN
+$default-size: 1rem;
+
+//BORDER
+$default-border: 1px;
+
+//BORDER RADIUS
+$default-border-radius: 1rem;
+
+//SHADOW
+$shadow-sm: 0 .125rem .25rem rgba(#000000, .075);
+$default-shadow: 0 .5rem 1rem rgba(#000000, .15);
+$shadow-lg: 0 1rem 3rem rgba(#000000, .175);
+
+//FONT SIZE
+$default-font-size: 1rem;
+
+//COLOR
+$light-primary: #FFFFFF;
+$light-secondary: #f7f5f2;
+$light-accent: #0077B5;
+
+$dark-primary: #303336;
+$dark-secondary: #595C5F;
+$dark-accent: #0077B5;
+
+$black: #000000;
+$white: #FFFFFF;
+$yellow: #EFB920;
+$green: #228C22;
+$red: #EC4339;
+$dark-red: #C11F1D;
+$blue: #0077B5;
+$dark-blue: #005E93;
+$very-light-grey: #d0d4d8;
+
+$light-text-primary: #000000;
+$light-text-secondary: #86898C;
+$light-text-tertiary: #B6B9BC;
+
+$dark-text-primary: #E6E9EC;
+$dark-text-secondary: #B6B9BC;
+$dark-text-white: #FFFFFF;
+
+//FONT
+
+$source-serif-pro: 'Source Serif Pro', serif;
+$source-sans-pro: 'Source Sans Pro', sans-serif;
+$source-code-pro: 'Source Code Pro', monospace;

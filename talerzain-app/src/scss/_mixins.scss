@@ -1,0 +1,19 @@
+@import '_variables.scss';
+
+@mixin sm {
+    @media (min-width: 0px) and (max-width: #{$mobile}) {
+        @content;
+    }
+};
+
+@mixin md {
+    @media (min-width: #{$mobile + 1px}) and (max-width: #{$tablet}) {
+        @content;
+    }
+};
+
+@mixin lg {
+    @media (min-width: #{$tablet + 1px}) {
+        @content;
+    }
+};

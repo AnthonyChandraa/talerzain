@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @include sm {
+    width: 100%;
+    max-width: $mobile - 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+    flex-direction: column;
+    
+  }
+
+  @include md {
+      max-width: $tablet - 20px;
+      padding-left: 6px;
+      padding-right: 6px;
+  }
+
+  @include lg {
+      width: 100%;
+      max-width: $desktop;
+      padding-left: auto;
+      padding-right: auto;
+  }
+}
+
+.toggler {
+  display: none;
+  @include sm{
+    display: block;
+  }
+}
+
+.collapse {
+  @include md {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @include lg {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @include sm{
+    display: none;
+    padding-top: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
