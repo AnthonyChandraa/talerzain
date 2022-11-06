@@ -1,22 +1,83 @@
-$Red : #b31a1a;
-$Blue : #4780da;
-$Yellow : #d7d53b;
-$default-margin : 1rem;
-
-.title {
-    color: $Red;
-}
-
-.button1{
-    color: $Blue;
-}
+@import './_reset.scss';
+@import './_colors.scss';
+@import './_forms.scss';
+@import './_mixins.scss';
+@import './_layouts.scss';
+@import './_variables.scss';
+@import './_utilities.scss';
 
 
-.bg-yellow {f
+.bg-yellow{
     background-color: $Yellow;
-    
 }
 
-.m-1 {
-    margin: $default-margin * 0.375;
+.bg-white{
+    background-color: $White;
+}
+
+.bg-yellow-op-3 {
+    background-color: $Yellow-3-op;
+}
+
+.text-home {
+    width: 400px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.sub-text-home {
+    width: 400px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.photo {
+    position: absolute;
+}
+
+.grid-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    place-items: center;
+    padding-top: 5rem;
+    margin: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.navigation1 {
+    text-decoration: none;
+}
+
+.navigation1:hover {
+    opacity: 0.8;
+}
+
+.btn-sign {
+    border: 1px;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    padding: 8px 35px;
+}
+
+.btn-sign:hover {
+    opacity: 0.8;
+}
+
+.nav-btn-sign {
+    margin: 1rem;
+    padding: 0.5rem;
+    flex-direction: row;
+	flex-wrap: nowrap;
 }

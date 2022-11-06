@@ -1,81 +1,10 @@
 @import '_variables.scss';
 
-.bg-light-primary {
-    background-color: $light-primary;
-}
 
-.bg-light-secondary {
-    background-color: $light-secondary;
-}
-
-.bg-light-accent {
-    background-color: $light-accent;
-}
-
-.bg-dark-primary {
-    background-color: $dark-primary;
-}
-
-.bg-dark-secondary {
-    background-color: $dark-secondary;
-}
-
-.bg-dark-accent {
-    background-color: $dark-accent;
-}
-
-.bg-content{
-    background-color: $light-secondary;
-}
-
-.bg-none {
-    background-color: none;
-}
-
-.bg-light-grey {
-    background-color: $very-light-grey;
-}
-
-.text-light-primary {
-    color: $light-text-primary;
-}
-
-.text-light-secondary {
-    color: $light-text-secondary;
-}
-
-.text-light-tertiary {
-    color: $light-text-tertiary;
-}
-
-.text-dark-primary {
-    color: $dark-text-primary;
-}
-
-.text-dark-secondary {
-    color: $dark-text-secondary;
-}
-
-.text-white {
-    color: $dark-text-white;
-}
-
-.text-blue {
-    color: $blue;
-}
-
-.hover-light-primary:hover {
-    color: $light-text-primary;
-}
-
-.hover-dark-primary:hover {
-    color: $dark-text-primary;
-}
-
-.navbar-btn-light-active {
-    color: $light-text-primary;
-}
-
-.navbar-btn-dark-active {
-    color: $dark-text-primary;
-}
+$Yellow :#FCBF49;
+$Yellow-3-op: rgba(252, 191, 73, 0.3);
+$Red :#D62828;
+$Orange :#F77F00; 
+$Blue : #003049;
+$LightYellow : #EAE2B7;
+$White : #ffffff;

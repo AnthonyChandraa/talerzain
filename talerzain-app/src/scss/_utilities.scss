@@ -226,7 +226,16 @@
     border-radius: $default-border-radius * 50;
 }
 
+//OPACITY
+.opacity-80 {
+    opacity: 80%;
+}
+
 //SHADOW
+.shadow-btn {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    ;
+}
+
 .shadow-none {
     box-shadow: none;
 }
@@ -323,6 +332,7 @@
     overflow: hidden;
 }
 
+
 //HEADING
 .h1 {
     font-size: $default-font-size * 2.5;
@@ -393,132 +403,7 @@
     font-size: $default-font-size * 1.25
 }
 
-.link-light {
-    color: $light-text-secondary;
-    text-decoration: none;
-}
-
-.link-light:hover {
-    color: $blue;
-    text-decoration: underline;
-}
-
-.link-dark {
-    color: $dark-text-secondary;
-    text-decoration: none;
-}
-
-.link-dark:hover {
-    color: $blue;
-    text-decoration: underline;
-}
-
-//ANCHOR
-.link-blue {
-    color: $light-accent;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.link-hover-underline:hover {
-    text-decoration: underline;
-}
-
 //BUTTON
-.btn {
-    border: none;
-    border-radius: $default-border-radius;
-    height: 40px;
-    background-color: inherit;
-    font-size: $default-font-size;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.btn:hover {
-    cursor: pointer;
-}
-
-.btn-primary {
-    background-color: $light-accent;
-    color: $white;
-}
-
-.btn-primary:hover {
-    background-color: $dark-blue;
-}
-
-.btn-secondary {
-    background-color: $light-secondary;
-    color: $light-text-secondary;
-    border: $default-border solid grey
-}
-
-.btn-secondary:hover {
-    background-color: rgb(189, 189, 189);
-    color: $light-text-primary;
-}
-
-.btn-success {
-    background-color: $green;
-    color: $white;
-    border: $default-border solid grey;
-}
-
-.btn-success:hover{
-    background-color: #1c6f1c;
-}
-
-.btn-white {
-    background-color: $white;
-    color: $black;
-    border: $default-border solid black;
-}
-
-.btn-white:hover {
-    background-color: $light-text-tertiary;
-}
-
-.btn-secondary-no-border {
-    color: $light-text-secondary;
-}
-
-.btn-secondary-no-border:hover {
-    text-decoration: underline;
-    color: $light-text-primary;
-}
-
-.btn-primary-no-border-no-decor {
-    color: $light-text-primary;
-    text-decoration: none;
-}
-
-.btn-primary-no-border-no-decor:hover {
-    text-decoration: underline;
-    color: $blue;
-}
-
-.btn-white-hover-secondary {
-    text-decoration: underline;
-    color: $light-text-primary;
-    background-color: $white;
-}
-
-.btn-white-hover-secondary:hover {
-    background-color: $light-secondary;
-}
-
-.btn-white-hover-secondary-no-underline {
-    text-decoration: none;
-    color: $light-text-secondary;
-    background-color: $white;
-}
-
-.btn-white-hover-secondary-no-underline:hover {
-    background-color: $light-secondary;
-    cursor: pointer;
-}
-
 
 
 
