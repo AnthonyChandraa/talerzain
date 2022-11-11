@@ -4,6 +4,8 @@ import Header from '../../components/home/Header'
 import Content from '../../components/home/Content'
 
 function Home() {
+
+  
   return (
     <>
       <Navbar />
