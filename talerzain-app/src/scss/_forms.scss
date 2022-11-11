@@ -1,2 +1,11 @@
 @import '_variables.scss';
 
+.form-input{
+    border-radius: 1rem;
+    border-color: transparent;
+    height: 2rem;
+    font-size: 7pt;
+    width: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

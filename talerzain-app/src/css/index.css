@@ -10,6 +10,32 @@ html {
   overflow-x: hidden;
 }
 
+.bg-yellow {
+  background-color: #FCBF49;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-yellow-op-3 {
+  background-color: rgba(252, 191, 73, 0.3);
+}
+
+.bg-red {
+  background-color: #D62828;
+}
+
+.form-input {
+  border-radius: 1rem;
+  border-color: transparent;
+  height: 2rem;
+  font-size: 7pt;
+  width: 10rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .m-0 {
   margin: 0rem;
 }
@@ -839,18 +865,6 @@ html {
   float: right;
 }
 
-.bg-yellow {
-  background-color: #FCBF49;
-}
-
-.bg-white {
-  background-color: #ffffff;
-}
-
-.bg-yellow-op-3 {
-  background-color: rgba(252, 191, 73, 0.3);
-}
-
 .text-home {
   width: 400px;
   font-style: normal;
@@ -871,6 +885,10 @@ html {
 
 .photo {
   position: absolute;
+}
+
+.logo-img {
+  width: 2rem;
 }
 
 .grid-home {
@@ -912,4 +930,39 @@ html {
   padding: 0.5rem;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.sign-in {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 22rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2rem;
+}
+
+.sign-in-right {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.in-button {
+  color: white;
+  font-weight: 600;
+}
+
+.mini-links {
+  text-decoration: none;
+  color: black;
+  opacity: 40%;
+  font-size: 9pt;
 }
