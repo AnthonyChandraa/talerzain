@@ -1,7 +1,5 @@
 import React, {useState, useContext, createContext, useEffect} from 'react';
 import {auth} from './../config/config';
-import {onAuthStateChanged} from 'firebase/auth';
-import firebase from "firebase/compat/app";
 
 
 interface IUserContext{
@@ -19,7 +17,7 @@ function UserProvider({children}:Props) {
   useEffect(()=>{
     onAuthStateChanged(auth, (firebaseUser)=>{
        if(firebaseUser!=null){
-        // setCurrentUser(firebaseUser);
+        setCurrentUser(firebaseUser);
        }
     })
   }, []);
