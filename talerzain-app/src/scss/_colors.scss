@@ -3,6 +3,7 @@
 
 $Yellow :#FCBF49;
 $Yellow-3-op: rgba(252, 191, 73, 0.3);
+$Yellow-5-op: rgba(252, 191, 73, 0.5);
 $Red :#D62828;
 $Orange :#F77F00; 
 $Blue : #003049;
@@ -19,6 +20,10 @@ $White : #ffffff;
 
 .bg-yellow-op-3 {
     background-color: $Yellow-3-op;
+}
+
+.bg-yellow-op-5 {
+    background-color: $Yellow-5-op;
 }
 
 .bg-red {
